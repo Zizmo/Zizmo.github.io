@@ -1,0 +1,147 @@
+body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	background-color:#FFD699;
+}
+
+div#content
+{
+	min-height:100%;
+	height:100%;
+	width:800px;
+	margin:0px auto;
+}
+
+.thumb
+{
+	width:25%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+h1
+{
+	font-family: 'Amaranth', sans-serif;
+	font-size:28pt;
+}
+
+h2
+{
+	font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, div#links a
+{
+	color:#ffffff;
+}
+
+p, a
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+	color:#505050;
+}
+
+a:visited {
+    text-decoration: none;
+	color:#505050;
+}
+
+a:hover {
+    text-decoration: none;
+	color:#ffa500;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+div#title h1
+{
+	margin:25px 10px 0px 0px;
+	padding:0;
+}
+
+div#title h2
+{
+	margin:0px 10px 25px 0px;
+	padding:0;
+	font-size:14pt;
+}
+
+div#links
+{
+	float:right;
+	margin:20px;
+	font-size:18pt;
+}
+
+ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+div#links li
+{
+	display:inline;
+	margin:0 5px;
+}
+
+.main
+{
+	padding-bottom:80px;
+}
+
+.icon
+{
+	height:50px;
+	width:50px;
+}
+
+.projectSpotlight
+{
+	background-image:url("assets/test.png");
+	color:#aaaaaa;
+	height:400px;
+}
+
+.projectSpotlight h2, .projectSpotlight p, a#projLink
+{
+	position:relative;
+	top:300px;
+	margin:0 10px;
+	padding:0;
+}
+
+a#projLink
+{
+	position:relative;
+	float:right;
+	margin-right:50px;
+}
+
+div#footer
+{
+	clear:both;
+	width:100%;
+	position:absolute;
+	height:auto;
+	border-top:solid 1px #ffffff;
+	bottom:0;
+	left:0;
+	text-align:center;
+}
+
+div#footer p
+{
+	margin:0;
+	padding:5px;
+}
